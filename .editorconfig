@@ -1,15 +1,23 @@
 # editorconfig.org
 
+# top-most .editorconfig file
 root = true
 
+# Match all files
 [*]
+# Space indentation
 indent_style = space
 indent_size = 4
+# Unix-style newlines with a new line ending every file
 end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = true
 insert_final_newline = true
+# Set default charset
+charset = utf-8
+# Remove any whitespace characters preceding newline characters
+trim_trailing_whitespace = true
+# Set preferred maximum line length
 max_line_length = 120
 
+# Match all .json files
 [*.json]
 indent_size = 2
