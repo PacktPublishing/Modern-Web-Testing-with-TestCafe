@@ -1,2 +1,2 @@
-# Test-Cafe-Proof-of-Concept
-Test Cafe: Proof of Concept, published by Packt
+# Modern Web Testing with TestCafe
+Modern Web Testing with TestCafe, published by Packt
