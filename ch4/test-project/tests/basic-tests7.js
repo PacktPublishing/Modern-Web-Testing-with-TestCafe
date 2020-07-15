@@ -25,3 +25,13 @@ test('Log in', async (t) => {
         .click('[name="login"]')
         .expect(Selector('#loggedas').exists).ok();
 });
+
+test('Log out', async (t) => {
+    await t.click('.login')
+        .typeText('#username', `test_user_testcafe_poc${randomDigits}@sharklasers.com`)
+        .typeText('#password', 'test_user_testcafe_poc')
+        .click('[name="login"]')
+        .click('.logout')
+        .expect(Selector('#loggedas').exists).notOk()
+        .expect(Selector('.login').exists).ok();
+});
