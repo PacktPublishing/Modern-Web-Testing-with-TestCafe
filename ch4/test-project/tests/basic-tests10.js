@@ -3,6 +3,7 @@ const { stamp } = require('js-automation-tools');
 
 const randomDigits1 = stamp.getTimestamp();
 const randomDigits2 = stamp.resetTimestamp();
+const randomDigits3 = stamp.resetTimestamp();
 
 const getPageUrl = ClientFunction(() => {
         return window.location.href;
@@ -75,4 +76,27 @@ test('Create a new issue', async (t) => {
         .click('#issue_priority_id option[value="5"]')
         .click('[value="Create"]')
         .expect(Selector('#flash_notice').innerText).contains('created.')
+});
+
+test('Verify that the issue is displayed on a project page', async (t) => {
+    await t.click('.login')
+        .typeText('#username', `test_user_testcafe_poc${randomDigits1}@sharklasers.com`)
+        .typeText('#password', 'test_user_testcafe_poc')
+        .click('[name="login"]')
+        .click('#top-menu .projects')
+        .click('.icon-add')
+        .typeText('#project_name', `test_project${randomDigits3}`)
+        .click('[value="Create"]')
+        .click('#top-menu .projects')
+        .click(`[href*="/projects/test_project${randomDigits3}"]`)
+        .click('.new-issue')
+        .typeText('#issue_subject', `Test issue ${randomDigits3}`)
+        .typeText('#issue_description', `Test issue description ${randomDigits3}`)
+        .click('#issue_priority_id')
+        .click('#issue_priority_id option[value="5"]')
+        .click('[value="Create"]')
+        .click('#top-menu .projects')
+        .click(`[href*="/projects/test_project${randomDigits3}"]`)
+        .click('#main-menu .issues')
+        .expect(Selector('.subject a').innerText).contains(`Test issue ${randomDigits3}`)
 });
