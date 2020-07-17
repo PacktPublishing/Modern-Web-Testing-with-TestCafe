@@ -75,7 +75,7 @@ test('Create a new issue', async (t) => {
         .click('#issue_priority_id')
         .click('#issue_priority_id option[value="5"]')
         .click('[value="Create"]')
-        .expect(Selector('#flash_notice').innerText).contains('created.')
+        .expect(Selector('#flash_notice').innerText).contains('created.');
 });
 
 test('Verify that the issue is displayed on a project page', async (t) => {
@@ -98,5 +98,5 @@ test('Verify that the issue is displayed on a project page', async (t) => {
         .click('#top-menu .projects')
         .click(`[href*="/projects/test_project${randomDigits3}"]`)
         .click('#main-menu .issues')
-        .expect(Selector('.subject a').innerText).contains(`Test issue ${randomDigits3}`)
+        .expect(Selector('.subject a').innerText).contains(`Test issue ${randomDigits3}`);
 });
