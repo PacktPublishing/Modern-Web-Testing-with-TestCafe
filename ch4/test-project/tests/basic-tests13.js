@@ -9,7 +9,7 @@ const randomDigits5 = stamp.resetTimestamp();
 const randomDigits6 = stamp.resetTimestamp();
 
 const getPageUrl = ClientFunction(() => {
-        return window.location.href;
+    return window.location.href;
 });
 
 fixture('Redmine log in tests')

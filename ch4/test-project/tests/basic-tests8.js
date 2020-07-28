@@ -4,7 +4,7 @@ const { stamp } = require('js-automation-tools');
 const randomDigits = stamp.getTimestamp();
 
 const getPageUrl = ClientFunction(() => {
-        return window.location.href;
+    return window.location.href;
 });
 
 fixture('Redmine log in tests')
