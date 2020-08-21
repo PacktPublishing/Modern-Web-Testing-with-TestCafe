@@ -65,6 +65,7 @@ let redminePage = {
     blockNoData: '.nodata',
     blockFile: '.file',
     buttonAction: '.buttons a',
+    dataMethodDelete: 'delete',
 
     textFirstNameRegularUser: 'test_user',
     textLastNameRegularUser: 'testcafe_poc',
