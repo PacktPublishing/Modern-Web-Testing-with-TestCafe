@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-ci": "testcafe chrome tests/basic-tests.js --quarantine-mode",
+    "test-debug": "testcafe chrome tests/basic-tests.js --debug-on-fail --speed 0.8"
   },
   "keywords": [],
   "author": "",
