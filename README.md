@@ -35,6 +35,7 @@ const linkTest = Selector('#block-test')
 ```
 
 **Following is what you need for this book:**
+
 The book is for QA professionals, test engineers, software engineers, and test automation enthusiasts looking for hands-on guidance on learning about TestCafe. This book is also great for full-stack developers who want to learn more about new tools for testing their code. The book assumes a basic understanding of JavaScript, Node.js, HTML, CSS, and some simple Bash commands.
 
 With the following software and hardware list you can run all code files present in the book (Chapter 3-7).
