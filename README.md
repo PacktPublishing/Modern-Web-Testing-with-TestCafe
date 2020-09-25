@@ -48,9 +48,6 @@ With the following software and hardware list you can run all code files present
 | 3-7      | ECMAScript 6+(also known as ES6+ and ECMAScript 2015+)| Any platform           |         
 | 3-7      | Web Browser, Command Pronmpt (CMD)                    | Any platform           |
 
-
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781838648121_ColorImages.pdf).
-
 ### Related products <Other books you may enjoy>
 * Node.js Web Development - Fifth Edition [[Packt]](https://www.packtpub.com/product/node-js-web-development-fifth-edition/9781838987572?utm_source=github&utm_medium=repository&utm_campaign=9781838987572) [[Amazon]](https://www.amazon.com/dp/1838987576)
 
