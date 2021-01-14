@@ -34,9 +34,9 @@ The code will look like the following:
 ```
 const { Selector } = require('testcafe');
 const linkTest = Selector('#block-test')
-.child('a')
-.withAttribute('href', 'https://test-site.com/main.html')
-.withText('Second link');
+    .child('a')
+    .withAttribute('href', 'https://test-site.com/main.html')
+    .withText('Second link');
 ```
 
 **Following is what you need for this book:**
@@ -59,7 +59,13 @@ With the following software and hardware list you can run all code files present
 * Svelte 3 Up and Running [[Packt]](https://www.packtpub.com/product/svelte-3-up-and-running/9781839213625?utm_source=github&utm_medium=repository&utm_campaign=9781839213625) [[Amazon]](https://www.amazon.com/dp/1839213620)
 
 ## Get to Know the Author
-**Dmytro Shpakovskyi**
-has over 10 years of experience in the quality assurance (QA),software testing, and software-as-a-service industries. Skilled in end-to-end, load, and API test automation, he is certified by the ISTQB. During his successful career, Dmytro has led on QA automation for a platform of 60+ highly scalable web applications and services, built and maintained numerous test automation frameworks, managed distributed teams of QA automation engineers, mentored, and helped to convert manual test engineers to test automation.
-You can often find Dmytro creating and open-sourcing new test automation frameworks, mentoring other QA engineers, or exploring new tools and techniques for automated testing.
+[**Dmytro Shpakovskyi**](https://www.linkedin.com/in/dshpakovskyi/)
+has over 10 years of experience in the quality assurance (QA), software testing,
+and Software-as-a-Service industries. Skilled in end-to-end, load, and API test automation, he is certified by the ISTQB. During his successful career, Dmytro
+has led on QA automation for a platform of 60+ highly scalable web applications
+and services, built and maintained numerous test automation frameworks, managed distributed teams of QA automation engineers, mentored, and helped to convert
+manual test engineers to test automation.
+You can often find Dmytro creating and open-sourcing new test automation
+frameworks, mentoring other QA engineers, or exploring new tools and techniques
+for automated testing. He shares his experience at [stijit.com](https://www.stijit.com/).
 
