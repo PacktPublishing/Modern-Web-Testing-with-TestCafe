@@ -64,3 +64,7 @@ You can often find Dmytro creating and open-sourcing new test automation
 frameworks, mentoring other QA engineers, or exploring new tools and techniques
 for automated testing. He shares his experience at [stijit.com](https://www.stijit.com/).
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781800200951">https://packt.link/free-ebook/9781800200951 </a> </p>
