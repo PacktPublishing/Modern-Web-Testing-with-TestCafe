@@ -1,3 +1,15 @@
+
+### Get this product for $5
+
+<i>Packt is having its biggest sale of the year. Get this eBook or any other book, video, or course that you like just for $5 each</i>
+
+
+<b><p align='center'>[Buy now](https://packt.link/9781800200951)</p></b>
+
+
+<b><p align='center'>[Buy similar titles for just $5](https://subscription.packtpub.com/search)</p></b>
+
+
 # Modern Web Testing with TestCafe
 
 <a href="https://www.packtpub.com/product/modern-web-testing-with-testcafe/9781800200951?utm_source=github&utm_medium=repository&utm_campaign=9781800200951"><img src="https://static.packt-cdn.com/products/9781800200951/cover/smaller" alt="Modern Web Testing with TestCafe" height="256px" align="right"></a>
